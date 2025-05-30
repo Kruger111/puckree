@@ -197,6 +197,7 @@ a:hover {
     width: 90%;
     display: flex;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 #site-search-form {
@@ -205,6 +206,7 @@ a:hover {
     align-items: center;
     width: 100%;
     max-width: 700px;
+    box-sizing: border-box;
 }
 
 #search-input {
@@ -221,6 +223,28 @@ a:hover {
     border: 1.5px solid #0071e3;
     outline: none;
     background: #fff;
+}
+
+/* Responsive: Make search bar full width on mobile */
+@media (max-width: 600px) {
+    #search-bar {
+        margin: 16px 0 0 0;
+        padding: 10px 4vw;
+        max-width: 100vw;
+        width: 100vw;
+        border-radius: 0;
+    }
+    #site-search-form {
+        flex-direction: column;
+        gap: 10px;
+        max-width: 100vw;
+        width: 100vw;
+    }
+    #search-input, #filter-category, #filter-date, #site-search-form button {
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
 }
 
 #filter-category,
