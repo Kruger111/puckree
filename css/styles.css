@@ -9,6 +9,13 @@ html {
     width: 80%;
 }
 
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  overflow: hidden; /* Prevent scrolling */
+  position: relative; /* Ensure child elements are positioned relative to the body */
+}
+
 #main-content {
     display: flex;
     flex-direction: row;   /* Side-by-side on desktop */
