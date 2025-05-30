@@ -101,6 +101,25 @@ a:hover {
     margin: 0;
 }
 
+#sidebar li {
+    list-style: none;
+    margin: 0 0 12px 0;
+    padding: 0;
+}
+
+#sidebar a {
+    color: #1d1d1f;
+    padding: 8px 24px;
+    border-radius: 8px;
+    display: block;
+    transition: background 0.2s, color 0.2s;
+}
+
+#sidebar a:hover {
+    background: #e8e8ed;
+    color: #0071e3;
+}
+
 #search-bar {
     background: #fff;
     border-radius: 14px;
