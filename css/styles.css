@@ -6,15 +6,13 @@ html {
 }
 
 #main-content {
-    display: flex;
-    flex-direction: row;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 32px 16px 0 16px;
-    min-height: 70vh;
-    gap: 24px;
-    width: 100%;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
 }
 
 /* General Styles */
@@ -108,16 +106,16 @@ a:hover {
     color: #0071e3;
 }
 
-/* Main Content */
-#main-content {
+#search-bar {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+    padding: 20px 24px;
+    margin: 32px auto 0 auto;
+    max-width: 700px;
+    width: 90%;
     display: flex;
-    flex-direction: row;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 32px 16px 0 16px;
-    min-height: 70vh;
-    gap: 24px;
-    background: transparent;
+    justify-content: center;
 }
 
 #content {
@@ -276,34 +274,20 @@ a:hover {
     box-sizing: border-box;
 }
 
-/* Responsive Design */
 @media (max-width: 1000px) {
     #main-content {
         flex-direction: column;
-        padding: 24px 4vw 0 4vw;
         gap: 0;
+        padding: 0 0 0 0;
+        width: 100vw;
+        max-width: 100vw;
     }
-    #sidebar {
-        margin: 0 0 24px 0;
-        max-width: 100%;
-        width: 100%;
-    }
-    #content {
-        padding: 28px 4vw;
-        margin-bottom: 24px;
-    }
-}
-
-@media (max-width: 600px) {
-    #main-content {
-        padding: 0;
-    }
-    #sidebar {
-        padding: 16px 0;
-        margin: 0 0 16px 0;
-    }
-    #content {
-        padding: 14px 2vw;
+    #sidebar, #content {
+        max-width: 100vw;
+        width: 100vw;
+        margin: 0;
+        border-radius: 0;
+        box-sizing: border-box;
     }
 }
 
