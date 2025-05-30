@@ -5,6 +5,10 @@ html {
     box-sizing: inherit;
 }
 
+.container {
+    width: 80%;
+}
+
 #main-content {
     display: flex;
     flex-direction: row;   /* Side-by-side on desktop */
