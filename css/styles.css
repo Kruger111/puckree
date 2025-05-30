@@ -199,17 +199,6 @@ a:hover {
     justify-content: center;
 }
 
-/* Search Bar */
-#search-bar {
-    background: #fff;
-    border-radius: 14px;
-    box-shadow: 0 1px 6px rgba(0,0,0,0.04);
-    padding: 20px 24px;
-    margin-bottom: 32px;
-    display: flex;
-    justify-content: center;
-}
-
 #site-search-form {
     display: flex;
     gap: 14px;
