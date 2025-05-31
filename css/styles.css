@@ -80,39 +80,6 @@ body {
     color: #0071e3;
 }
 
-@media (max-width: 900px) {
-    #sidebar {
-        position: relative;
-        min-width: 0;
-        max-width: 100%;
-        width: 100%;
-        margin: 0 0 16px 0;
-        border-radius: 0;
-        box-shadow: none;
-        padding: 0;
-        background: none;
-    }
-    
-    #sidebar-toggle {
-        display: block;
-    }
-    #sidebar-links {
-        display: none;
-        background: #fff;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-        border-radius: 12px;
-        margin: 8px 16px;
-        padding: 12px 0;
-        position: absolute;
-        left: 0;
-        right: 0;
-        z-index: 100;
-    }
-    #sidebar.open #sidebar-links {
-        display: block;
-    }
-}
-
 #sidebar {
     min-width: 180px;
     max-width: 220px;
@@ -211,28 +178,6 @@ a:hover {
     border: 1.5px solid #0071e3;
     outline: none;
     background: #fff;
-}
-
-/* Responsive: Make search bar full width on mobile */
-@media (max-width: 600px) {
-    #search-bar {
-        margin: 16px 0 0 0;
-        padding: 10px 4vw;
-        max-width: 100vw;
-        width: 100vw;
-        border-radius: 0;
-    }
-    #site-search-form {
-        flex-direction: column;
-        gap: 10px;
-        max-width: 100vw;
-        width: 100vw;
-    }
-    #search-input, #filter-category, #filter-date, #site-search-form button {
-        width: 100%;
-        min-width: 0;
-        box-sizing: border-box;
-    }
 }
 
 #filter-category,
@@ -348,6 +293,7 @@ a:hover {
     box-sizing: border-box;
 }
 
+/* Mobile*/
 @media (max-width: 1000px) {
     #main-content {
         flex-direction: column;
@@ -361,6 +307,62 @@ a:hover {
         width: 100%;
         margin: 0;
         border-radius: 0;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 900px) {
+    #sidebar {
+        position: relative;
+        min-width: 0;
+        max-width: 100%;
+        width: 100%;
+        margin: 0 0 16px 0;
+        border-radius: 0;
+        box-shadow: none;
+        padding: 0;
+        background: none;
+    }
+    
+    #sidebar-toggle {
+        display: block;
+    }
+    #sidebar-links {
+        display: none;
+        position: absolute;
+        background: #fff;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        border-radius: 12px;
+        margin: 8px 16px;
+        padding: 12px 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 100;
+    }
+    #sidebar.open #sidebar-links {
+        display: block;
+    }
+}
+
+/* Responsive: Make search bar full width on mobile */
+@media (max-width: 600px) {
+    #search-bar {
+        margin: 16px 0 0 0;
+        padding: 10px 4vw;
+        max-width: 100vw;
+        width: 100vw;
+        border-radius: 0;
+    }
+    #site-search-form {
+        flex-direction: column;
+        gap: 10px;
+        max-width: 100vw;
+        width: 100vw;
+    }
+    #search-input, #filter-category, #filter-date, #site-search-form button {
+        width: 100%;
+        min-width: 0;
         box-sizing: border-box;
     }
 }
