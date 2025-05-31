@@ -136,7 +136,7 @@ body {
         width: 100%;       /* Changed from 100vw */
         max-width: 100%;   /* Changed from 100vw */
     }
-    #sidebar, #content {
+    #content {
         max-width: 100%;
         width: 100%;
         margin: 0;
