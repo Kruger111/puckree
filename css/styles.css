@@ -80,12 +80,6 @@ body {
     color: #0071e3;
 }
 
-#sidebar {
-    min-width: 180px;
-    max-width: 220px;
-    width: 100%;
-}
-
 #content {
     flex: 1;
     min-width: 0;
