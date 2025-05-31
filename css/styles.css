@@ -381,6 +381,18 @@ a:hover {
     }
 }
 
+/* Make footer SVG icons white */
+.footer-social svg {
+    color: #fff;
+    fill: #fff;
+    transition: color 0.2s, fill 0.2s;
+}
+
+.footer-social a:hover svg {
+    color: #0071e3;
+    fill: #0071e3;
+}
+
 .spacer {
     height: 32px; /* Adjust height as needed */
     width: 100%;
