@@ -297,7 +297,7 @@ a:hover {
 
 @media (max-width: 900px) {
     #sidebar {
-        position: relative;
+        position: fixed;
         min-width: 0;
         max-width: 100%;
         width: 100%;
@@ -306,7 +306,13 @@ a:hover {
         box-shadow: none;
         padding: 0;
         background: none;
+        transition: left 0.3s ease-in-out;
     }
+
+    #sidebar.show {
+        left: 0; /* Makes sidebar visible */
+    }
+
     
     #sidebar-toggle {
         display: block;
