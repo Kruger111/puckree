@@ -366,6 +366,44 @@ a:hover {
     fill: #0071e3;
 }
 
+/* Add to your styles.css */
+.info-heading {
+    font-size: 1.6em;
+    font-weight: 700;
+    color: #0071e3;
+    margin-top: 36px;
+    margin-bottom: 10px;
+    letter-spacing: -0.01em;
+}
+
+.info-description {
+    color: #515154;
+    font-size: 1.13em;
+    margin-bottom: 18px;
+    max-width: 700px;
+}
+
+.info-list {
+    list-style: disc inside;
+    background: #f5f5f7;
+    border-radius: 14px;
+    padding: 24px 28px;
+    margin: 0 0 32px 0;
+    box-shadow: 0 2px 8px rgba(0,113,227,0.04);
+    color: #1d1d1f;
+    font-size: 1.08em;
+}
+
+.info-list li {
+    margin-bottom: 14px;
+    line-height: 1.7;
+}
+
+.info-list li strong {
+    color: #0071e3;
+    font-weight: 600;
+}
+
 .spacer {
     height: 32px; /* Adjust height as needed */
     width: 100%;
