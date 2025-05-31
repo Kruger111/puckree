@@ -312,7 +312,6 @@ a:hover {
     #sidebar.show {
         left: 0; /* Makes sidebar visible */
     }
-
     
     #sidebar-toggle {
         display: block;
