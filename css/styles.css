@@ -320,9 +320,10 @@ a:hover {
     filter: grayscale(0%);
 }
 
-.footer-social img {
+.footer-social i {
     width: 28px;
     height: 28px;
+    color: white;
     vertical-align: middle;
 }
 
