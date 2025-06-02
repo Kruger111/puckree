@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://rajenpuckree.com/index.html</loc></url>
+  <url><loc>https://rajenpuckree.com/about.html</loc></url>
+  <url><loc>https://rajenpuckree.com/victims.html</loc></url>
+  <url><loc>https://rajenpuckree.com/vinosha.html</loc></url>
+  <url><loc>https://rajenpuckree.com/puckreegroup.html</loc></url>
+  <url><loc>https://rajenpuckree.com/puckreegroupcompany.html</loc></url>
+  <url><loc>https://rajenpuckree.com/rajenpuckreesprofile.html</loc></url>
+  <url><loc>https://rajenpuckree.com/prostitutes.html</loc></url>
+</urlset>
